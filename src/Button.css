@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/456/435/original/cartoon-night-landscape-fir-moon-illustration-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: top 20% right 70%;
+  border-radius: 9px;
+  width: 220px;
+  height: 55px;
+  background-color: #1a237e;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  transition: 0.2s;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  filter: contrast(200%);
+  background-size: 120%;
+}

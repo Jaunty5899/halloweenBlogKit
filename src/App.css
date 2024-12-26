@@ -1,0 +1,26 @@
+body {
+  background-color: #212121;
+  color: white;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+.columnOne,
+.columnTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.columnTwo > Button {
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+  font-size: larger;
+}
+.columnOne > Button:nth-child(2) {
+  color: black;
+  background-position: top 80% right 100%;
+  background-image: url("https://eskipaper.com/images/morning-wallpaper-11.jpg");
+}

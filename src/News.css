@@ -1,0 +1,12 @@
+.news-box {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  border-bottom: 2px #64ffda solid;
+  background-color: black;
+}
+.news-box > h3 {
+  margin: 0;
+  padding: 5px 10px;
+  margin: 8px 0px;
+}

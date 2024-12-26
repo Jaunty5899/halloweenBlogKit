@@ -1,0 +1,40 @@
+.highlight {
+  width: 420px;
+  height: min-content;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.event {
+  display: flex;
+  gap: 25px;
+  padding: 25px;
+  align-items: center;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+}
+.date > span:first-child {
+  font-weight: 700;
+  font-size: xx-large;
+}
+.date > span:last-child {
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: -8px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.title > span:first-child {
+  font-weight: 500;
+}
+.title > span:last-child {
+  color: rgb(104, 102, 102);
+  font-size: smaller;
+}
