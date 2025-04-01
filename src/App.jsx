@@ -15,6 +15,11 @@ function App() {
       <div className="columnTwo">
         <Highlight />
         <Button data="CATEGORIES" />
+        <Button data="CATEGORIES" />
+        <Button data="CATEGORIES" />
+        <Button data="CATEGORIES" />
+        <Button data="CATEGORIES" />
+        <Button data="CATEGORIES" />
       </div>
     </div>
   );
